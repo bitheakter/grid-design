@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    width: 1152px;
+    margin: auto;
+  
+}
+.main-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97px;
+    width: 97px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.294) ;
+
+}
+.background2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    border-radius: 50%;
+}
+.box{
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.239);
+padding: 50px 0px;
+background-color: white;
+border-radius: 20px;
+transition: all 0.3s;
+}
+.box:hover{
+   background-color: #4C40F7;
+   color: white;
+
+}
+.box:hover .details {
+color: white;
+}
+.box:hover .gray{
+    background-color: white;
+}
+.img-maindiv{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+}
+.pink{
+    background-color: #FF2D59;
+    box-shadow: 0 5px 15px #ff2d5a71;
+}
+.green{
+    background-color: #4ADB61;
+    box-shadow: 0 5px 15px #4adb627c ;
+}
+
+.yellow{
+    background-color: #FFCC00;
+    box-shadow: 0 5px 15px #ffcc0078 ;
+}
+.blue{
+    background-color: #007BFF;
+    box-shadow: 0 5px 15px #007bff83 ;
+}
+.orange{
+    background-color: #FF6800;
+    box-shadow: 0 5px 15px #ff660088;
+}
+.details{
+    color: #6B6B6B;
+    line-height: 30px;
+    padding:0 40px;
+}
+.services{
+    color: #FF2D59;
+    text-align: center;
+    
+}
+.gray{
+    background-color: #e9e3e3b2;
+    
+}
+.title{
+    margin: 20px 0;
+}
+.titlee{
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+    margin: 50px 0;
+}
